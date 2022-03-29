@@ -5,27 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IPTG – The Interdisciplinary PeaceTech Group</title>
     <link rel="stylesheet" href="assets/pico.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <style>
       :root {
         --primary: #d81b60;
+        --font-family: 'Lato', Helvetica, Arial, sans-serif;
       }
-      body {
-        background: var(--muted-border-color);
-      }
-      main {
-        min-height: 100vh;
-        background: #fff;
-      }
-      @media (min-width: 576px) {
-        main.container {
-          padding-left: 2rem;
-          padding-right: 2rem;
+      @keyframes slider {
+        0% {
+          left: 0;
+        }
+        50% {
+          left: calc(-2700px + 100%);
+        }
+        100% {
+          left: 0;
         }
       }
-      header {
+      main > header {
         text-align: center;
       }
+      .grid > * {
+        margin-top: 0;
+      }
+      .members {
+        position: relative;
+        overflow: hidden;
+        height: 50px;
+        margin: calc(2 * var(--typography-spacing-vertical)) 0;
+      }
+      .members div {
+        position: absolute;
+        display: flex;
+        animation: slider 60s infinite;
+      }
+      .members div:hover {
+        animation-play-state: paused;
+      }
+      .members a {
+        flex: none;
+      }
+      .members a img {
+        height: 50px;
+        margin: 0 20px;
+        filter: grayscale(100%) opacity(50%);
+      }
+      .members a:hover img {
+        filter: grayscale(100%) opacity(100%);
+      }
+      @media (prefers-color-scheme: dark) {
+        .members a img {
+          filter: grayscale(100%) opacity(50%) invert();
+        }
+        .members a:hover img {
+          filter: grayscale(100%) opacity(100%) invert();
+        }
+      }
+      .people {
+        margin: calc(2 * var(--typography-spacing-vertical)) 0;
+      }
+      .people p small {
+        display: block;
+      }
     </style>
+    <script>
+
+    </script>
   </head>
   <body>
     <main class="container">
@@ -37,9 +82,171 @@
           </picture>
         </h1>
       </header>
+
       <p>The IPTG is a newly-formed multi-disciplinary group that brings together tech professionals, conflict practitioners, researchers and academics to develop innovative tech resources and tools for peace-building efforts worldwide.</p>
       <p>The group is working to harness the power of information technologies and the web to address some of the most challenging issues of our times, from the resolution of violent conflicts to the building of peaceful virtual and realworld communities across the globe.</p>
       <p>The learning platform we are creating will share relevant and useful tools, methods and outputs from tech and peace and conflict perspectives.</p>
+    
+      <h2>Upcoming activities</h2>
+      
+      <div class="activities grid">
+        <article>
+          <hgroup>
+            <h4>PeaceTech in Action</h4>
+            <address>
+              Jean Golding Institute Data Week<br>
+              Online workshops<br>
+              <time>June 16th 2022, 12-3pm GMT</time><br>
+              IPTG coordinator: Hen
+            </address>
+          </hgroup>
+          
+          <small>
+            <p>Programme (all workshops 1hr each = 3 parallel workshops / Break / 3 parallel workshops)</p>
+          
+            <ul>
+              <li>VR in conflict resolution (Beatrice Hasler via Arik, tbc)</li>
+              <li>Gaming: <a href="https://youtu.be/X2m-08cOAbc">Free Guy - artificial intelligence</a> - about the emotions / computer game. Different perspective on the creation of data – in games, what it makes people believe. (Hen/Melina interactive workshop)</li>
+              <li>Tech-conflict collaboration through creation of innovative conflict resolution tools (Arik Segal)</li>
+              <li>Using GIS (geographic information systems) to generate more impact for research in mapping sport and peace (Tom Woodhouse with IEP technicians)</li>
+              <li>Ukraine images of resilience (Nabeela)</li>
+              <li>Gathering technology / IT perspectives (Kate)</li>
+            </ul>
+          </small>
+          
+          <a href="#" role="button">Book now</a>
+        </article>
+        
+        <article>
+          <hgroup>
+            <h4>Harnessing technology to develop operational indicators of positive / quality peace</h4>
+            <address>
+              Conflict Research Society Conference<br>
+              <time>September 2022</time><br>
+              Papers + online panel discussion<br>
+              IPTG coordinators: Nabeela and Tom
+            </address>
+          </hgroup>
+          
+          <small>
+            <p>Combining a call for papers/contributions with a panel of those who have already made distinctive contributions in the peace indicators field and IT specialists in data visualisation for social good. The panel discussion will link peace and conflict researchers and practitioners with researchers in the data visualisation field, to assess progress in developing operational indicators of positive or quality peace and to identify promising avenues for future work. Talking points/themes could include: the state of the art in positive peace indicators; scope for data visualisation in assessing progress towards (or away from) peace; peace and conflict datasets and data visualisation methods.</p>
+          </small>
+
+          <a href="#" role="button">Book now</a>
+        </article>
+      </div>
+    
+      <h2>Group members</h2>
+      
+      <div class="members">
+        <div>
+          <a href="#"><img alt="Community-resolve" src="assets\members\community-resolve.jpg"> </a>
+          <a href="#"><img alt="Football4community" src="assets\members\football4community.webp"></a>
+          <a href="#"><img alt="University of Bristol" src="assets\members\university-of-bristol.svg"> </a>
+          <a href="#"><img alt="Ateneo de Davao University" src="assets\members\ateneo-de-davao-university.png"></a>
+          <a href="#"><img alt="Conntix" src="assets\members\conntix.webp"></a>
+          <a href="#"><img alt="University of Minnesota" src="assets\members\university-of-minnesota.svg"> </a>
+          <a href="#"><img alt="Cambridge University" src="assets\members\cambridge-university.svg"></a>
+          <a href="#"><img alt="Institute for Economics and Peace" src="assets\members\iep.webp"></a>
+          <a href="#"><img alt="University of Bradford" src="assets\members\university-of-bradford.svg"></a>
+          <a href="#"><img alt="Adrenaline Solutions" src="assets\members\adrenaline-solutions.png"></a>
+          <a href="#"><img alt="University of Kent" src="assets\members\university-of-kent.svg"></a>
+        </div>
+      </div>
+
+      <div class="people grid">
+        <div>
+          <p>
+            PB Anand
+            <small>
+              Prof, Public Policy & Sustainability<br>
+              <a href="#">University of Bradford</a>, UK
+            </small>
+          </p>
+          <p>
+            Noli Ayo
+            <small>
+              Practitioner<br>
+              <a href="#">Ateneo de Davao University</a>, Philippines<br>
+              <a href="#">Adrenaline Solutions</a>
+            </small>
+          </p>
+          <p>
+            Sarah Dryhust
+            <small>
+              Turing Fellow<br>
+              <a href="#">Cambridge University</a>, UK
+            </small>
+          </p>
+          <p>
+            Nabeela Khan
+            <small>
+              <a href="#">University of Bradford</a>, UK
+            </small>
+          </p>
+        </div>
+        <div>
+          <p>
+            Hugh Miall
+            <small>
+              Prof Em, <a href="#">University of Kent</a>, UK<br>
+              Chair, <a href="#">Conflict Research Society</a>, UK
+            </small>
+          </p>
+          <p>
+            Kate Robson-Brown
+            <small>
+              Prof, Turing Fellow<br>
+              Director, <a href="#">Jean Golding Institute</a><br>
+              <a href="#">University of Bristol</a>, UK
+            </small>
+          </p>
+          <p>
+            Melina Rupprecht
+            <small>
+              <a href="#">University of Bradford</a>, UK
+            </small>
+          </p>
+          <p>
+            Arik Segal
+            <small>
+              Practitioner<br><a href="#">Conntix</a>, Israel
+            </small>
+          </p>
+        </div>
+        <div>
+          <p>
+            Hen Wilkinson
+            <small>
+              Practitioner, <a href="#">Community Resolve</a><br>
+              Snr Res Associate, <a href="#">University of Bristol</a>, UK
+            </small>
+          </p>
+          <p>
+            Tom Woodhouse
+            <small>
+              Prof Em, <a href="#">University of Bradford</a>, UK<br>
+              <a href="#">Institute for Economics and Peace</a><br>
+              <a href="#">Football4community</a>
+            </small>
+          </p>
+          <p>
+            Lois Yellowthunder
+            <small>
+              Res Fellow, Dpt of Anthropology<br>
+              <a href="#">University of Minnesota</a>, US
+            </small>
+          </p>
+        </div>
+      </div>
+
+      <figure>
+        <img style="opacity: 80%" src="assets/map.svg" alt="Map of the world showing members of the Interdisciplinary PeaceTech Group" width="100%">  
+      </figure>
+
+      <p>
+        The group is currently coordinated by Hen Wilkinson as part of an ESRC-funded postdoc with the Jean Golding Institute, University of Bristol.
+      </p>
     </main>
   </body>
 </html>
