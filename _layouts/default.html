@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      {%- if page.title -%}
+        {{ page.title }} – {{ site.title }}
+      {%- else -%}
+        {{ site.title }}
+      {%- endif -%}
+      </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+    <link rel="stylesheet" href="/assets/pico.min.css">
+    <link rel="stylesheet" href="/assets/style.css">
+    <script src="/assets/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <h1>
+          <a href="/">
+            <picture>
+              <source srcset="/assets/IPTG_dark.svg" media="(prefers-color-scheme: dark)">
+              <img src="/assets/IPTG.svg" alt="IPTG – The Interdisciplinary PeaceTech Group">
+            </picture>
+          </a>
+        </h1>
+        {%- if site.header_pages -%}
+          <ul>
+            <li>
+              <details role="list" dir="rtl">
+                <summary aria-haspopup="listbox" role="link">
+                  <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </summary>
+                <ul role="listbox">
+                  {%- for path in site.header_pages -%}
+                    {%- assign node = site.pages | where: "path", path | first -%}
+                    {%- if node.title or node.menu_title -%}
+                      <li>
+                        <a class="page-link {% if page.url == node.url %}active{% endif %}" href="{{ node.url | relative_url }}">
+                          {% if node.menu_title %}
+                            {{ node.menu_title }}
+                          {% else %}
+                            {{ node.title }}
+                          {% endif %}
+                        </a>
+                      </li>
+                    {%- endif -%}
+                  {%- endfor -%}  
+                </ul>
+              </details>
+            </li>
+          </ul>
+        {%- endif -%}
+      </nav>
+    </header>
+
+    <main class="container">
+      {%- unless page.url == "/" -%}
+        <div class="breadcrumbs">
+            {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+            <a href="/">Home</a>
+            {% for crumb in crumbs offset: 1 %}
+                {% unless forloop.last %}
+                    / <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+                {% endunless %}
+            {% endfor %}
+        </div>
+      {%- endunless -%}
+
+      {{ content }}
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="members">
+          <div>
+            <a href="https://henwilkinson.info/"><img alt="Community-resolve" src="/assets/members/community-resolve.jpg"> </a>
+            <a href="https://www.football4community.co.uk/"><img alt="Football4community" src="/assets/members/football4community.webp"></a>
+            <a href="https://www.bristol.ac.uk/golding/"><img alt="University of Bristol – Jean Golding Institute" src="/assets/members/university-of-bristol.svg"> </a>
+            <a href="https://www.addu.edu.ph/"><img alt="Ateneo de Davao University" src="/assets/members/ateneo-de-davao-university.png"></a>
+            <a href="https://www.conntix.com/"><img alt="Conntix" src="/assets/members/conntix.webp"></a>
+            <a href="https://umn.edu/"><img alt="University of Minnesota" src="/assets/members/university-of-minnesota.svg"> </a>
+            <a href="https://www.cam.ac.uk/"><img alt="Cambridge University" src="/assets/members/cambridge-university.svg"></a>
+            <a href="https://www.economicsandpeace.org/"><img alt="Institute for Economics and Peace" src="/assets/members/iep.webp"></a>
+            <a href="https://www.bradford.ac.uk/"><img alt="University of Bradford" src="/assets/members/university-of-bradford.svg"></a>
+            <a href="https://adrenaline.solutions/"><img alt="Adrenaline Solutions" src="/assets/members/adrenaline-solutions.png"></a>
+            <a href="https://www.kent.ac.uk/"><img alt="University of Kent" src="/assets/members/university-of-kent.svg"></a>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            {%- for path in site.header_pages -%}
+              {%- assign node = site.pages | where: "path", path | first -%}
+              {%- if node.title or node.menu_title -%}
+                <li><a href="{{ node.url }}">{{ node.menu_title | default: node.title }}</a></li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        </nav>
+        <p>Copyright &copy; 2022 {{ site.author }} (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 license</a>)</p>
+        <p>The group is currently coordinated by Hen Wilkinson as part of an ESRC-funded postdoc with the Jean Golding Institute, University of Bristol.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+title: The Interdisciplinary PeaceTech Group
+author: The Interdisciplinary PeaceTech Group
+url: "https://peacetechgroup.github.io"
+
+header_pages:
+  - index.md
+  - events/index.md
+  - people.md
+
+collections:
+  events:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "default"
+
+# Remove ".html" from default permalinks
+permalink: pretty
