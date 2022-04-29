@@ -13,19 +13,21 @@ Peacetech is a growing new field, leading to collaborations across the globe bet
 
 The **Data Week PeaceTech in Action** session includes a short opening and closing discussion as well as attendance at one of the following 1 hour online workshops:
 
-<div class="activities grid">
+<div class="activities">
     <article>
+        <h6>Workshop 1</h6>
         <a href="conflict-resolution-tools/">How tech professionals can design innovative conflict resolution tools</a>
     </article>
     <article>
+        <h6>Workshop 2</h6>
         <a href="future-for-peacebuilding/">The future for peacebuilding in a data-driven society</a>
     </article>
-</div>
-<div class="activities grid">
     <article>
+        <h6>Workshop 3</h6>
         <a href="data-mapping-visualisation/">Data mapping and visualisation: enhancing peacebuilding and conflict resolution</a>
     </article>
     <article>
+        <h6>Workshop 4</h6>
         <a href="images-from-ukraine/">Images from Ukraine: the strengths and dangers of visual data</a>
     </article>
 </div>
