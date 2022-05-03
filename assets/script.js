@@ -9,3 +9,21 @@ window.onscroll = function () {
         document.body.classList.remove('collapsed-header');
     }
 }
+
+window.onload = function() {
+    const members = document.querySelector('.members div');
+    const width = members.scrollWidth;
+    members.innerHTML = members.innerHTML + members.innerHTML;
+    const keyframes = document.createElement('style');
+    keyframes.innerHTML = `
+        @keyframes slider {
+            from {
+                left: 0;
+            }
+            to {
+                left: -${width}px;
+            }
+        }
+    `;
+    document.head.appendChild(keyframes);
+}

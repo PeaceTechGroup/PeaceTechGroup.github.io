@@ -2,17 +2,6 @@
     --primary: #d81b60;
     --font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
-@keyframes slider {
-    0% {
-        left: 0;
-    }
-    50% {
-        left: calc(-2700px + 100%);
-    }
-    100% {
-        left: 0;
-    }
-}
 body {
     overflow-anchor: none;
 }
