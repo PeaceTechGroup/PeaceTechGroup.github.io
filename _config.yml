@@ -6,6 +6,7 @@ header_pages:
   - index.md
   - events/index.md
   - people.md
+  - contact.md
 
 collections:
   events:
