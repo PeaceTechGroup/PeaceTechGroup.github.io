@@ -16,23 +16,13 @@ menu_title: People
         </div>
     </li>
     <li>
-        <div class="img"></div>
+        <img alt="Noli Ayo" src="/assets/people/noli-ayo.jpg">
         <div>
             Noli Ayo
             <small>
                 Practitioner<br>
                 <a href="https://www.addu.edu.ph/">Ateneo de Davao University</a>, Philippines<br>
                 <a href="https://adrenaline.solutions/">Adrenaline Solutions</a>
-            </small>
-        </div>
-    </li>
-    <li>
-        <div class="img"></div>
-        <div>
-            Sarah Dryhust
-            <small>
-                Turing Fellow<br>
-                <a href="https://www.cam.ac.uk/">Cambridge University</a>, UK
             </small>
         </div>
     </li>
@@ -67,7 +57,7 @@ menu_title: People
         </div>
     </li>
     <li>
-        <div class="img"></div>
+        <img alt="Melina Rupprecht" src="/assets/people/melina-rupprecht.jpg">
         <div>
             Melina Rupprecht
             <small>
@@ -86,7 +76,7 @@ menu_title: People
         </div>
     </li>
     <li>
-        <div class="img"></div>
+        <img alt="James Thomas" src="/assets/people/james-thomas.jpg">
         <div>
             James Thomas
             <small>
@@ -96,7 +86,7 @@ menu_title: People
         </div>
     </li>
     <li>
-        <div class="img"></div>
+        <img alt="Hen Wilkinson" src="/assets/people/hen-wilkinson.jpg">
         <div>
             Hen Wilkinson
             <small>
@@ -106,7 +96,7 @@ menu_title: People
         </div>
     </li>
     <li>
-        <div class="img"></div>
+        <img alt="Tom Woodhouse" src="/assets/people/tom-woodhouse.jpg">
         <div>
             Tom Woodhouse
             <small>
@@ -117,7 +107,7 @@ menu_title: People
         </div>
     </li>
     <li>
-        <div class="img"></div>
+        <img alt="Lois Yellowthunder" src="/assets/people/lois-yellowthunder.jpg">
         <div>
             Lois Yellowthunder
             <small>
