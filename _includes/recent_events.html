@@ -1,6 +1,6 @@
-{% assign events = site.pages | where: "layout", "event" | where: "upcoming", "true" %}
+{% assign events = site.pages | where: "layout", "event" | where: "upcoming", "false" %}
 {% if events %}
-# Upcoming activities
+# Recent activities
 
 {% for event in events %}
 <article>

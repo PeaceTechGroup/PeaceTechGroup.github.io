@@ -2,6 +2,6 @@
 menu_title: Events
 ---
 
-# Upcoming activities
-
 {% include upcoming_events.html %}
+
+{% include recent_events.html %}

@@ -1,4 +1,7 @@
-{% assign events = site.pages | where: "layout", "event" | where: "frontpage", "true" %}
+{% assign events = site.pages | where: "layout", "event" | where: "frontpage", "true" | where: "upcoming", "true" %}
+{% if events %}
+## Upcoming activities
+
 {% for event in events %}
 <article>
     <hgroup>
@@ -13,3 +16,4 @@
     <a href="{{ event.url }}" role="button">More information</a>
 </article>
 {% endfor %}
+{% endif %}
