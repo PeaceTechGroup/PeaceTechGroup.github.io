@@ -132,6 +132,12 @@ ul.people-grid small {
 .activities h6 {
     margin-bottom: 0;
 }
+.muted {
+    color: var(--code-comment-color);
+}
+textarea {
+    resize: vertical;
+}
 footer {
     background-color: var(--contrast);
 }

@@ -10,4 +10,22 @@ Alternatively, you can email us at: peacetechgroup<span>&#64;</span>gmail<i>&#46
 
 Your contact details will be used to enable us to reply to your message. We won't sign you up to mailing lists without your permission.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1gWstzR2lahdQlphiSgZK2ukJAsicQYY2WyJ8Vu6iw_Xa0g/viewform?embedded=true" width="100%" height="1200"></iframe>
+<form action="https://formspree.io/f/xayvrbyy" method="POST">
+  <label>
+    Your name: <small class="muted">(required)</small>
+    <input type="text" name="name" required>
+  </label>
+  <label>
+    Your email: <small class="muted">(required)</small>
+    <input type="email" name="email" required>
+  </label>
+  <label>
+    Your telephone number:
+    <input type="tel" name="phone">
+  </label>
+  <label>
+    Your message: <small class="muted">(required)</small>
+    <textarea name="message" rows="8" required></textarea>
+  </label>
+  <button type="submit">Send message</button>
+</form>
