@@ -8,7 +8,7 @@ You can use the below form to send a message to The Interdisciplinary PeaceTech 
 
 Alternatively, you can email us at: peacetechgroup<span>&#64;</span>gmail<i>&#46;</i>com
 
-Your contact details will be used to enable us to reply to your message. We won't sign you up to mailing lists without your permission.
+Your contact details will be used to enable us to reply to your message. We will only sign you up to our mailing list if you opt-in below.
 
 <form action="https://formspree.io/f/xayvrbyy" method="POST">
   <label>
@@ -18,6 +18,14 @@ Your contact details will be used to enable us to reply to your message. We won'
   <label>
     Your email: <small class="muted">(required)</small>
     <input type="email" name="email" required>
+  </label>
+  <label>
+    Join our mailing list: <small class="muted">(required)</small>
+    <select name="join_mailing_list" required>
+      <option disabled selected hidden value>Please select</option>
+      <option>Yes</option>
+      <option>No</option>
+    </select>
   </label>
   <label>
     Your telephone number:
