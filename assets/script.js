@@ -13,7 +13,12 @@ window.onscroll = function () {
 window.onload = function() {
     const members = document.querySelector('.members div');
     const width = members.scrollWidth;
-    members.innerHTML = members.innerHTML + members.innerHTML;
+    const originalHTML = members.innerHTML;
+    members.querySelectorAll('a').forEach(elem => {
+        elem.setAttribute('aria-hidden', 'true');
+        elem.setAttribute('tabindex', '-1');
+    });
+    members.innerHTML = originalHTML + members.innerHTML;
     const keyframes = document.createElement('style');
     keyframes.innerHTML = `
         @keyframes slider {
