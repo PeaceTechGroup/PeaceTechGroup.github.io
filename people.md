@@ -20,9 +20,19 @@ menu_title: People
         <div>
             Noli Ayo
             <small>
-                Practitioner<br>
-                <a href="https://www.addu.edu.ph/">Ateneo de Davao University</a>, Philippines<br>
-                <a href="https://adrenaline.solutions/">Adrenaline Solutions</a>
+                Practitioner, <a href="https://adrenaline.solutions/">Adrenaline Solutions</a><br>
+                <a href="https://www.addu.edu.ph/">Ateneo de Davao University</a>, Philippines
+            </small>
+        </div>
+    </li>
+    <li>
+        <img alt="Partha Das Chowdhury" src="/assets/people/partha-das-chowdhury.jpg">
+        <div>
+            Partha Das Chowdhury
+            <small>
+                Res Associate, Computational Sciences<br>
+                <a href="https://www.bristol.ac.uk/">University of Bristol</a>, UK<br>
+                <a href="https://www.rephrain.ac.uk/">REHPRAIN</a>
             </small>
         </div>
     </li>
@@ -41,7 +51,7 @@ menu_title: People
             Hugh Miall
             <small>
                 Prof Em, <a href="https://www.kent.ac.uk/">University of Kent</a>, UK<br>
-                Chair, <a href="https://conflictresearchsociety.org/">Conflict Research Society</a>, UK
+                <a href="https://conflictresearchsociety.org/">Conflict Research Society</a>, UK
             </small>
         </div>
     </li>
@@ -76,6 +86,16 @@ menu_title: People
         </div>
     </li>
     <li>
+        <img alt="Serge Stroobants" src="/assets/people/serge-stroobants.jpg">
+        <div>
+            Serge Stroobants
+            <small>
+                Director, Europe & MENA<br>
+                <a href="https://www.economicsandpeace.org/">Institute for Economics and Peace</a>
+            </small>
+        </div>
+    </li>
+    <li>
         <img alt="James Thomas" src="/assets/people/james-thomas.jpg">
         <div>
             James Thomas
@@ -91,7 +111,8 @@ menu_title: People
             Hen Wilkinson
             <small>
                 Practitioner, <a href="https://henwilkinson.info/">Community Resolve</a><br>
-                Snr Res Associate, <a href="https://www.bristol.ac.uk/">University of Bristol</a>, UK
+                Snr Res Associate, <a href="https://www.bristol.ac.uk/">University of Bristol</a>, UK<br>
+                Researcher-in-Residence, <a href="https://www.rephrain.ac.uk/">REHPRAIN</a>
             </small>
         </div>
     </li>
