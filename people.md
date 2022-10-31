@@ -61,7 +61,7 @@ menu_title: People
         <div>
             Melina Rupprecht
             <small>
-                <a href="https://www.bradford.ac.uk/">University of Bradford</a>, UK
+                <a href="https://www.blanquerna.edu/">Blanquerna - Ramon Llull University</a>, Spain
             </small>
         </div>
     </li>
