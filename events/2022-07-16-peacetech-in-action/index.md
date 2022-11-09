@@ -10,6 +10,8 @@ upcoming: false
 frontpage: true
 ---
 
+<a href="IPTG_Key_findings_PeaceTech_in_Action_2022_06_16.pdf" role="button">Download key findings</a>
+
 Peacetech is a growing new field, leading to collaborations across the globe between peacebuilding and conflict resolution activists and specialists, and IT industry professionals. The aim of the movement is to harness new and innovative technologies to enhance the analysis and understanding of conflicts, and also to create practical tools to avoid and solve conflicts on the ground and online. There's a pressing need for proactive thinking in this emerging field, and we're looking for industry and IT professionals to join us in this important work.
 
 The **Data Week PeaceTech in Action** session includes a short opening and closing discussion as well as attendance at one of the following 1 hour online workshops:
