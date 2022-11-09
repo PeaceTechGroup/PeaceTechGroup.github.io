@@ -56,6 +56,16 @@ menu_title: People
         </div>
     </li>
     <li>
+        <img alt="Lea Perekrests" src="/assets/people/lea-perekrests.jpg">
+        <div>
+            Lea Perekrests
+            <small>
+                Deputy Director, Europe & MENA<br>
+                <a href="https://www.economicsandpeace.org/">Institute for Economics and Peace</a>
+            </small>
+        </div>
+    </li>
+    <li>
         <img alt="Kate Robson Brown" src="/assets/people/kate-robson-brown.jpg">
         <div>
             Kate Robson Brown
