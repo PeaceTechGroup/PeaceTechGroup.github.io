@@ -1,19 +1,28 @@
 {% assign events = site.pages | where: "layout", "event" | where: "upcoming", "true" %}
 {% if events %}
-# Upcoming activities
+<h2>Upcoming activities</h2>
 
 {% for event in events %}
 <article>
     <hgroup>
-        <h4>{{ event.title }}</h4>
+        {% if event.no_page %}
+            <h3>{{ event.title }}</h3>
+        {% else %}
+            <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
+        {% endif %}
         <address>
-            <div>{{ event.subtitle }}</div>
-            <div>{{ event.location }}</div>
-            <div>{{ event.datetime }}</div>
+            {% if event.subtitle %}<div>{{ event.subtitle }}</div>{% endif %}
+            <div class="comma-separated">
+                {% if event.location %}<span>{{ event.location }}</span>{% endif %}
+                {% if event.date %}<span>{{ event.date }}</span>{% endif %}
+                {% if event.time %}<span>{{ event.time }}</span>{% endif %}
+            </div>
         </address>
     </hgroup>
-    <p>{{ event.description }}</p>
-    <a href="{{ event.url }}" role="button">More information</a>
+    {% if event.description %}<p>{{ event.description }}</p>{% endif %}
+    {% unless event.no_page %}
+        <a href="{{ event.url }}" role="button">More information</a>
+    {% endunless %}
 </article>
 {% endfor %}
 {% endif %}

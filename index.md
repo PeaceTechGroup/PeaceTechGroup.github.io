@@ -8,4 +8,11 @@ The group is working to harness the power of information technologies and the we
 
 The learning platform we are creating will share relevant and useful tools, methods and outputs from tech and peace and conflict perspectives.
 
-{% include frontpage_events.html %}
+<div class="activities">
+    <div>
+        {% include frontpage_upcoming_events.html %}
+    </div>
+    <div>
+        {% include frontpage_recent_events.html %}
+    </div>
+</div>

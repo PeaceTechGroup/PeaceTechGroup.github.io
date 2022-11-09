@@ -1,9 +1,9 @@
-{% assign events = site.pages | where: "layout", "event" | where: "upcoming", "false" %}
+{% assign events = site.pages | where: "layout", "event" | where: "frontpage", "true" | where: "upcoming", "false" | slice: 0, 3 %}
 {% if events %}
 <h2>Recent activities</h2>
 
-{% for event in events %}
 <article>
+    {% for event in events %}
     <hgroup>
         {% if event.no_page %}
             <h3>{{ event.title }}</h3>
@@ -18,10 +18,6 @@
             </div>
         </address>
     </hgroup>
-    {% if event.description %}<p>{{ event.description }}</p>{% endif %}
-    {% unless event.no_page %}
-        <a href="{{ event.url }}" role="button">More information</a>
-    {% endunless %}
+    {% endfor %}
 </article>
-{% endfor %}
 {% endif %}

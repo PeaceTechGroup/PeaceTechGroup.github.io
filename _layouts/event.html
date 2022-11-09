@@ -4,9 +4,12 @@ layout: default
 <hgroup>
     <h1>{{ page.title }}</h1>
     <address>
-        <div>{{ page.subtitle }}</div>
-        <div>{{ page.location }}</div>
-        <div>{{ page.datetime }}</div>
+        {% if page.subtitle %}<div>{{ page.subtitle }}</div>{% endif %}
+        <div class="comma-separated">
+            {% if page.location %}<span>{{ page.location }}</span>{% endif %}
+            {% if page.date %}<span>{{ page.date }}</span>{% endif %}
+            {% if page.upcoming and page.time %}<span>{{ page.time }}</span>{% endif %}
+        </div>
     </address>
 </hgroup>
 
