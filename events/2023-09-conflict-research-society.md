@@ -1,15 +1,15 @@
 ---
 layout: event
-title: "Conflict Research Society conference 2023"
-location: London
+title: Conflict Research Society conference 2023
+location: London, UK
 date: September 2023
 upcoming: true
 frontpage: true
 no_page: false
 ---
 
-## Peacetech: the future of peacebuilding?
-### Panel presentation and discussion
+## PeaceTech: the future of peacebuilding?
+### Research panel
 
 ---
 

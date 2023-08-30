@@ -2,9 +2,8 @@
 layout: event
 title: PeaceTech in Action
 subtitle: Jean Golding Institute Data Week
-location: Online workshops
-date: 16th Jun 2022
-time: 12-3pm (UTC+1)
+location: Online
+date: June 2022
 description: This event brings together like-minded individuals from across tech, peace and conflict and other backgrounds to focus on how to combine data science and IT capabilities to amplify virtual and on-the-ground peacebuilding and conflict transformation. Event open to all.
 upcoming: false
 frontpage: true

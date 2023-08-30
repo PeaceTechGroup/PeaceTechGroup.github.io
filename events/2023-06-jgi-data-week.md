@@ -1,9 +1,10 @@
 ---
 layout: event
-title: "Free PeaceTech and Data Science workshops, JGI Data Week 2023 conference"
-location: Bristol Data Week (online and in person)
-date: 5th-8th June 2023
-upcoming: true
+title: JGI Data Week 2023 conference
+subtitle: Free PeaceTech and Data Science workshops
+location: Bristol, UK and online
+date: June 2023
+upcoming: false
 frontpage: true
 no_page: false
 ---
@@ -18,6 +19,6 @@ Online
 ## Tech and social equity
 
 Thursday 8th June, 2:00-3:00pm BST (UTC+1)  
-In person, Bristol Beacon  
+In-person, Bristol Beacon  
 
 <a href="https://www.eventbrite.co.uk/e/connect-collaborate-create-with-data-ai-pm-inclusive-data-workshop-1-tickets-623574848157" role="button">Free registration</a>

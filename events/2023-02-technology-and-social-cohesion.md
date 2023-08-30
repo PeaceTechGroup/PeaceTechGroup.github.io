@@ -1,8 +1,8 @@
 ---
 layout: event
-title: "Technology and Social Cohesion, conference"
-location: San Francisco
-date: Feb 2023
+title: Technology and Social Cohesion, conference
+location: San Francisco, US
+date: February 2023
 upcoming: false
 frontpage: true
 no_page: false
