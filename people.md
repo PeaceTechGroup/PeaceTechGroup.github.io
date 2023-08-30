@@ -10,29 +10,8 @@ menu_title: People
         <div>
             PB Anand
             <small>
-                Prof, Public Policy & Sustainability<br>
+                Professor of Public Policy & Sustainability<br>
                 <a href="https://www.bradford.ac.uk/">University of Bradford</a>, UK
-            </small>
-        </div>
-    </li>
-    <li>
-        <img alt="Noli Ayo" src="/assets/people/noli-ayo.jpg">
-        <div>
-            Noli Ayo
-            <small>
-                Practitioner, <a href="https://adrenaline.solutions/">Adrenaline Solutions</a><br>
-                <a href="https://www.addu.edu.ph/">Ateneo de Davao University</a>, Philippines
-            </small>
-        </div>
-    </li>
-    <li>
-        <img alt="Partha Das Chowdhury" src="/assets/people/partha-das-chowdhury.jpg">
-        <div>
-            Partha Das Chowdhury
-            <small>
-                Res Associate, Computational Sciences<br>
-                <a href="https://www.bristol.ac.uk/">University of Bristol</a>, UK<br>
-                <a href="https://www.rephrain.ac.uk/">REHPRAIN</a>
             </small>
         </div>
     </li>
@@ -50,7 +29,7 @@ menu_title: People
         <div>
             Hugh Miall
             <small>
-                Prof Em, <a href="https://www.kent.ac.uk/">University of Kent</a>, UK<br>
+                Emeritus Professor, <a href="https://www.kent.ac.uk/">University of Kent</a>, UK<br>
                 <a href="https://conflictresearchsociety.org/">Conflict Research Society</a>, UK
             </small>
         </div>
@@ -66,11 +45,21 @@ menu_title: People
         </div>
     </li>
     <li>
+        <img alt="Helena Puig Larrauri" src="/assets/people/helena-puig-larrauri.jpg">
+        <div>
+            Helena Puig Larrauri
+            <small>
+                Co-founder and Strategy Lead<br>
+                <a href="https://howtobuildup.org/">Build Up</a>
+            </small>
+        </div>
+    </li>
+    <li>
         <img alt="Kate Robson Brown" src="/assets/people/kate-robson-brown.jpg">
         <div>
             Kate Robson Brown
             <small>
-                Prof, Turing Fellow<br>
+                Professor, Turing Fellow<br>
                 Director, <a href="https://www.bristol.ac.uk/golding/">Jean Golding Institute</a><br>
                 <a href="https://www.bristol.ac.uk/">University of Bristol</a>, UK
             </small>
@@ -121,8 +110,7 @@ menu_title: People
             Hen Wilkinson
             <small>
                 Practitioner, <a href="https://henwilkinson.info/">Community Resolve</a><br>
-                Snr Res Associate, <a href="https://www.bristol.ac.uk/">University of Bristol</a>, UK<br>
-                Researcher-in-Residence, <a href="https://www.rephrain.ac.uk/">REHPRAIN</a>
+                Research Fellow, <a href="https://www.bristol.ac.uk/">University of Bristol</a>, UK
             </small>
         </div>
     </li>
@@ -131,7 +119,7 @@ menu_title: People
         <div>
             Tom Woodhouse
             <small>
-                Prof Em, <a href="https://www.bradford.ac.uk/">University of Bradford</a>, UK<br>
+                Emeritus Professor, <a href="https://www.bradford.ac.uk/">University of Bradford</a>, UK<br>
                 <a href="https://www.economicsandpeace.org/">Institute for Economics and Peace</a><br>
                 <a href="https://www.football4community.co.uk/">Football4community</a>
             </small>
@@ -142,7 +130,7 @@ menu_title: People
         <div>
             Lois Yellowthunder
             <small>
-                Res Fellow, Dpt of Anthropology<br>
+                Research Fellow, Department of Anthropology<br>
                 <a href="https://umn.edu/">University of Minnesota</a>, US
             </small>
         </div>
