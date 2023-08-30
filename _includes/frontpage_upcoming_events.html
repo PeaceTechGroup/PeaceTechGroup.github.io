@@ -1,4 +1,4 @@
-{% assign events = site.pages | where: "layout", "event" | where: "frontpage", "true" | where: "upcoming", "true" | slice: 0, 3 %}
+{% assign events = site.pages | where: "layout", "event" | where: "frontpage", "true" | where: "upcoming", "true" | sort: "path" | slice: 0, 3 %}
 {% if events %}
 <h2>Upcoming activities</h2>
 

@@ -1,4 +1,4 @@
-{% assign events = site.pages | where: "layout", "event" | where: "frontpage", "true" | where: "upcoming", "false" | slice: 0, 3 %}
+{% assign events = site.pages | where: "layout", "event" | where: "frontpage", "true" | where: "upcoming", "false" | sort: "path" | reverse | slice: 0, 3 %}
 {% if events %}
 <h2>Recent activities</h2>
 
@@ -19,5 +19,6 @@
         </address>
     </hgroup>
     {% endfor %}
+    <a href="/events/#recent-activities">All recent activities</a>
 </article>
 {% endif %}

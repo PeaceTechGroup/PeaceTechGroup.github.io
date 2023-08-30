@@ -1,6 +1,6 @@
-{% assign events = site.pages | where: "layout", "event" | where: "upcoming", "true" %}
+{% assign events = site.pages | where: "layout", "event" | where: "upcoming", "true" | sort: "path" %}
 {% if events %}
-<h2>Upcoming activities</h2>
+<h2 id="upcoming-activities">Upcoming activities</h2>
 
 {% for event in events %}
 <article>
