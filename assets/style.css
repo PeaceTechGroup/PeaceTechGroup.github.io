@@ -1,8 +1,10 @@
 :root {
-    --primary: #d81b60;
     --font-family: 'Lato', Helvetica, Arial, sans-serif;
     --block-spacing-vertical: calc(var(--spacing) * 2 * 0.5);
     --typography-spacing-vertical: 1.5rem;
+}
+:root:not([data-theme="dark"]), [data-theme="light"] {
+    --color: #4a4a3e;
 }
 @media (min-width: 576px) {
     body>header,
@@ -43,8 +45,7 @@ body > header {
     position: sticky;
     top: 0;
     padding: 0;
-    background-color: var(--dropdown-background-color);
-    box-shadow: var(--card-box-shadow);
+    background-color: #95a628;
     z-index: 1000;
 }
 body > header h1 {
@@ -60,6 +61,9 @@ body.collapsed-header > header h1 img {
     margin: 5px 0 -18%;
     height: 50px;
     clip-path: inset(0 0 40% 0);
+}
+body > header summary[role="link"] {
+    color: #fff;
 }
 body > header details[role="list"] summary::after {
     background-image: none;
@@ -95,6 +99,18 @@ h5 {
 }
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: calc(var(--typography-spacing-vertical) * 0.5);
+}
+hr {
+    border-top: 0.7rem solid #95a628;
+    margin: 2rem 0;
+}
+a:not([role="button"]):not(.page-link) {
+    text-decoration: underline !important;
+    text-underline-position: under;
+}
+a[role="button"] {
+    background: #95a628;
+    border-color: transparent;
 }
 .members {
     position: relative;
@@ -200,7 +216,7 @@ textarea {
     resize: vertical;
 }
 footer {
-    background-color: var(--contrast);
+    background-color: #31321b;
 }
 footer nav {
     margin-bottom: var(--typography-spacing-vertical);
