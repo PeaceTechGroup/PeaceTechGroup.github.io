@@ -49,8 +49,8 @@ menu_title: People
         <div>
             Helena Puig Larrauri
             <small>
-                Co-founder and Strategy Lead<br>
-                <a href="https://howtobuildup.org/">Build Up</a>
+                Practitioner, <a href="https://howtobuildup.org/">Build Up</a>,<br>
+                Co-founder and Strategy Lead
             </small>
         </div>
     </li>
@@ -79,7 +79,7 @@ menu_title: People
         <div>
             Arik Segal
             <small>
-                Practitioner, <a href="https://www.conntix.com/">Conntix</a>, Israel<br>
+                Practitioner/Director, <a href="https://www.conntix.com/">Conntix</a>, Israel<br>
                 Adjunct faculty, <a href="https://www.runi.ac.il/">Reichman University</a>, Israel
             </small>
         </div>
@@ -109,7 +109,7 @@ menu_title: People
         <div>
             Hen Wilkinson
             <small>
-                Practitioner, <a href="https://henwilkinson.info/">Community Resolve</a><br>
+                Practitioner/Director, <a href="https://henwilkinson.info/">Community Resolve</a><br>
                 Research Fellow, <a href="https://www.bristol.ac.uk/">University of Bristol</a>, UK
             </small>
         </div>
