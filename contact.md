@@ -6,7 +6,7 @@ menu_title: Contact us
 
 You can use the below form to send a message to The Interdisciplinary PeaceTech Group.
 
-Alternatively, you can email us at: peacetechgroup<span>&#64;</span>gmail<i>&#46;</i>com
+Alternatively, you can email us at: contact<span>&#64;</span>peacetech<i>&#46;</i>group
 
 Your contact details will be used to enable us to reply to your message. We will only sign you up to our mailing list if you opt-in below.
 
